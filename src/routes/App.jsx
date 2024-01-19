@@ -1,7 +1,5 @@
-import { useEffect } from "react";
 import About from "../components/About";
 import Contact from "../components/Contact";
-import Cursor from "../components/Cursor";
 import Education from "../components/Education";
 import Experience from "../components/Experience";
 import Front from "../components/Front";
@@ -16,7 +14,6 @@ AOS.init();
 const App = () => {
   return (
     <>
-      <Cursor></Cursor>
       <Navbar></Navbar>
       <div data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true">
         <Front></Front>

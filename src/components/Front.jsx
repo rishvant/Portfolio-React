@@ -3,6 +3,7 @@ import { FaLinkedin } from "react-icons/fa";
 import { FaSquareXTwitter } from "react-icons/fa6";
 import { FaInstagram } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
+import { Link as ScrollLink } from 'react-scroll';
 
 const Front = () => {
     return (
@@ -13,7 +14,7 @@ const Front = () => {
                     <span className="text-2">I'M </span>
                     <span className="large-text animation">Developer</span>
                 </div>
-                <a href="#" className="front-content-btn">Contact Me</a>
+                <ScrollLink to="contact" smooth={true} duration={1000} className="front-content-btn">Contact Me</ScrollLink>
             </div>
             <div className="front-social">
                 <span className="social-line"></span>

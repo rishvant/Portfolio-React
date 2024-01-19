@@ -20,12 +20,11 @@ const Contact = () => {
 
         emailjs.sendForm('service_dzm66xb', 'template_oipbm6r', form.current, 'hKC2B78q_tnwFYM-W')
             .then((result) => {
-                console.log(result.status);
                 if (result.status === 200) {
                     refName.current.value = "";
                     refEmail.current.value = "";
                     refMessage.current.value = "";
-                    showToast("Message sent successfully! I'll revert back soon", 'success');
+                    showToast("Message sent successfully!", 'success');
                 }
             })
             .catch((error) => {

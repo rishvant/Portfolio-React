@@ -26,7 +26,6 @@
 
 @media (max-width: 480px) and (max-height: 1080px) {
     .about{
-        margin-top: -7vh;
         line-height: 2.5vh;
         height: 40vh;
     }
