@@ -1,4 +1,4 @@
-import "../styles/Navbar.css";
+import "../styles/navbar.css";
 import { Link as ScrollLink } from 'react-scroll';
 
 const Navbar = () => {
