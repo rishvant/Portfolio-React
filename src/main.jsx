@@ -1,9 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import App from './routes/App.jsx';
+import App from './App.jsx';
 import './index.css';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
-import Contact from './components/Contact.jsx';
 import About from './components/About.jsx';
 import { ToastContainer } from 'react-toastify';
 
