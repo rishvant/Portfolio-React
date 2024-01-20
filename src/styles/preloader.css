@@ -3,7 +3,7 @@
     height: 100%;
     display: flex;
     justify-content: center;
-    margin-top: 40vh;
+    margin-top: 45vh;
 }
 
 .spinner {
@@ -65,8 +65,8 @@
     }
 }
 
-/* @media (max-width: 480px) and (max-height: 1080px) {
+@media (max-width: 480px) and (max-height: 1080px) {
     .preloader{
-        margin-top: 100%;
+        margin-top: 40vh;
     }
-} */
+}
