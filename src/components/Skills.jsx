@@ -1,7 +1,6 @@
 import "../styles/skills.css";
 import Card from "../components/Card";
 
-// const cards=["html.svg","css.svg","js.svg","node.svg","mongo.svg","react.svg","express.svg","jquery.svg","bootstrap.svg","tailwind.svg","c.svg","c++.svg","git.svg"]
 const cards = [
     {
         name: "HTML",
@@ -62,7 +61,9 @@ const Skills = () => {
         <section className="skills">
             <h1>Skills</h1>
             <div className="skills-container">
-            {cards.map((card,index)=><Card key={index} url={card.url} name={card.name}></Card>)}
+                {/* <div className="skills-cards"> */}
+                    {cards.map((card, index) => <Card key={index} url={card.url} name={card.name}></Card>)}
+                {/* </div> */}
             </div>
         </section>
     )

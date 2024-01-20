@@ -11,12 +11,12 @@ const EducationCard = ({edu}) => {
             <div className="content-education">
                 <h3>{edu.head}</h3>
                 <p>{edu.degree} {edu.stream}</p>
-            <div className="year">
-                <span>{edu.year}</span>
+                <div className="year">
+                    <span>{edu.year}</span>
+                </div>
             </div>
-            </div>
-        </div>  
-   ) 
+        </div>
+    )
 }
 
 export default EducationCard;
