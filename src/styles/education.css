@@ -1,7 +1,7 @@
 .container-education{
     width: 80%;
     height: fit-content;
-    margin: 10%;
+    margin: 10% 10% 0 10%;
     color: white;
 }
 
@@ -17,7 +17,6 @@
     width: 80%;
     height: 40%;
     margin: 10%;
-    
 }
 
 .container-education .item .point{

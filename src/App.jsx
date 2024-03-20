@@ -10,6 +10,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { Link as ScrollLink, Element, Events, animateScroll as scroll, scroller } from 'react-scroll';
 import Preloader from "./components/Preloader";
+import Projects from "./components/Projects";
 
 AOS.init();
 
@@ -45,6 +46,11 @@ const App = () => {
           <div data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true">
             <Education></Education>
           </div>
+          <Element name="contact">
+            <div data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true">
+              <Projects />
+            </div>
+          </Element>
           <div data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true">
             <Experience></Experience>
           </div>

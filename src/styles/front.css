@@ -235,3 +235,12 @@
         font-size: 40px;
     }
 }
+
+@media only screen and (min-width: 768px) and (max-width: 1440px) {
+    .front-content{
+        min-width: 45%;
+    }
+    .front-social{
+        visibility: hidden;
+    }
+}
