@@ -30,7 +30,7 @@ const App = () => {
       {loading ? (<Preloader></Preloader>) : (
         <>
           <Navbar></Navbar>
-          <div data-aos="fade-up" data-aos-duration="100" data-aos-easing="ease-in-out" data-aos-mirror="true">
+          <div data-aos="fade-up" data-aos-duration="500" data-aos-easing="ease-in-out" data-aos-mirror="true">
             <Front></Front>
           </div>
           <Element name="about">
