@@ -4,6 +4,7 @@ import { FaSquareXTwitter } from "react-icons/fa6";
 import { FaInstagram } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { Link as ScrollLink } from 'react-scroll';
+import { Link } from "react-router-dom";
 
 const Front = () => {
     return (
@@ -18,10 +19,10 @@ const Front = () => {
             </div>
             <div className="front-social">
                 <span className="social-line"></span>
-                <FaLinkedin className="linkedin-social social-icons" />
-                <FaSquareXTwitter className="twitter-social social-icons" />
-                <FaInstagram className="instagram-social social-icons" />
-                <FaGithub className="github-social social-icons" />
+                <Link to="https://www.linkedin.com/in/rishvant-singh/" target="_blank"><FaLinkedin className="linkedin-social social-icons" /></Link>
+                <Link to="https://twitter.com/RishvantSingh" target="_blank"><FaSquareXTwitter className="twitter-social social-icons" /></Link>
+                <Link to="https://www.instagram.com/rishvantsp/" target="_blank"><FaInstagram className="instagram-social social-icons" /></Link>
+                <Link to="https://github.com/rishvant" target="_blank"><FaGithub className="github-social social-icons" /></Link>
             </div>
         </section>
     )
