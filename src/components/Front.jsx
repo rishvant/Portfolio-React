@@ -19,10 +19,10 @@ const Front = () => {
             </div>
             <div className="front-social">
                 <span className="social-line"></span>
-                <Link to="https://www.linkedin.com/in/rishvant-singh/" target="_blank"><FaLinkedin className="linkedin-social social-icons" /></Link>
-                <Link to="https://twitter.com/RishvantSingh" target="_blank"><FaSquareXTwitter className="twitter-social social-icons" /></Link>
-                <Link to="https://www.instagram.com/rishvantsp/" target="_blank"><FaInstagram className="instagram-social social-icons" /></Link>
-                <Link to="https://github.com/rishvant" target="_blank"><FaGithub className="github-social social-icons" /></Link>
+                <FaLinkedin className="linkedin-social social-icons" to="https://github.com/rishvant" />
+                <FaSquareXTwitter className="twitter-social social-icons" />
+                <FaInstagram className="instagram-social social-icons" />
+                <FaGithub className="github-social social-icons" />
             </div>
         </section>
     )
