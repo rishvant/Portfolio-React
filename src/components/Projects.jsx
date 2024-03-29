@@ -5,7 +5,7 @@ const Projects = () => {
         title: "Alumni Connect",
         image: "/alumni-connect.png",
         github: "https://github.com/rishvant/IIITU-Alumni-Website",
-        live: ""
+        live: "https://iiitu-alumni-connect.vercel.app/"
     }];
     return (
         <section className="projects">
