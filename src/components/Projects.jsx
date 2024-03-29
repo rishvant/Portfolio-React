@@ -4,7 +4,7 @@ const Projects = () => {
     const projects = [{
         title: "Alumni Connect",
         image: "/alumni-connect.png",
-        github: "https://github.com/rishvant/IIITU-Alumni-Website",
+        github: "https://github.com/rishvant/Alumni-Connect-Frontend",
         live: "https://iiitu-alumni-connect.vercel.app/"
     }];
     return (
