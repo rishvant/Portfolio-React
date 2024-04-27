@@ -6,7 +6,15 @@ const Projects = () => {
         image: "/alumni-connect.png",
         github: "https://github.com/rishvant/Alumni-Connect-Frontend",
         live: "https://iiitu-alumni-connect.vercel.app/"
-    }];
+    },
+    {
+        title: "Fit FusionX",
+        image: "/fitfusionx.png",
+        github: "https://github.com/rishvant/Advanced-Ecommerce-Frontend",
+        live: "https://fit-fusionx.vercel.app/"
+    }
+    ];
+    
     return (
         <section className="projects">
             <h1>Projects</h1>
