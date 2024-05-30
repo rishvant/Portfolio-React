@@ -7,7 +7,7 @@ export const projects = [{
 {
     title: "Fit FusionX",
     image: "/fitfusionx.png",
-    github: "https://github.com/rishvant/Advanced-Ecommerce-Frontend",
+    github: "https://github.com/rishvant/FitFusionX",
     live: "https://fit-fusionx.vercel.app/"
 }
 ];
