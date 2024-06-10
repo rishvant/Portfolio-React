@@ -46,7 +46,7 @@ const App = () => {
           <div data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true">
             <Education></Education>
           </div>
-          <Element name="contact">
+          <Element name="projects">
             <div data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true">
               <Projects />
             </div>
