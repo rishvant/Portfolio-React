@@ -10,22 +10,57 @@ const Front = () => {
     return (
         <section className="front-container">
             <div className="front-content">
-                <p className="front-content-1">I'M <span className="large-text">Rishvant Singh</span></p>
+                <p className="front-content-1">
+                    I'M <span className="large-text">Rishvant Singh</span>
+                </p>
                 <div className="text-1">
                     <span className="text-2">I'M </span>
                     <span className="large-text animation">Developer</span>
                 </div>
-                <ScrollLink to="contact" smooth={true} duration={1000} className="front-content-btn">Contact Me</ScrollLink>
+                <ScrollLink
+                    to="contact"
+                    smooth={true}
+                    duration={1000}
+                    className="front-content-btn"
+                >
+                    Contact Me
+                </ScrollLink>
             </div>
             <div className="front-social">
-                <span className="social-line"></span>
-                <Link to="https://www.linkedin.com/in/rishvant-singh/" target="_blank" style={{width: "110%"}}><FaLinkedin className="linkedin-social social-icons" /></Link>
-                <Link to="https://twitter.com/RishvantSingh" target="_blank" style={{width: "110%"}}><FaSquareXTwitter className="twitter-social social-icons" /></Link>
-                <Link to="https://www.instagram.com/rishvantsp/" target="_blank" style={{width: "110%"}}><FaInstagram className="instagram-social social-icons" /></Link>
-                <Link to="https://github.com/rishvant" target="_blank" style={{width: "110%"}}><FaGithub className="github-social social-icons" /></Link>
+                <div className="social-line-cont">
+                    <span className="social-line"></span>
+                </div>
+                <Link
+                    to="https://www.linkedin.com/in/rishvant-singh/"
+                    target="_blank"
+                    style={{ width: "30px" }}
+                >
+                    <FaLinkedin className="linkedin-social social-icons" />
+                </Link>
+                <Link
+                    to="https://twitter.com/RishvantSingh"
+                    target="_blank"
+                    style={{ width: "30px" }}
+                >
+                    <FaSquareXTwitter className="twitter-social social-icons" />
+                </Link>
+                <Link
+                    to="https://www.instagram.com/rishvantsp/"
+                    target="_blank"
+                    style={{ width: "30px" }}
+                >
+                    <FaInstagram className="instagram-social social-icons" />
+                </Link>
+                <Link
+                    to="https://github.com/rishvant"
+                    target="_blank"
+                    style={{ width: "30px" }}
+                >
+                    <FaGithub className="github-social social-icons" />
+                </Link>
             </div>
         </section>
-    )
+    );
 }
 
 export default Front;
