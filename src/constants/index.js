@@ -14,10 +14,10 @@ export const projects = [{
 
 export const expList = [
     {
-        title: "Web Development Intern",
-        timeline: "July' 2023 - Aug' 2023",
-        organisation: "Oasis Infobyte",
-        summary: ["4-Weeks Web development internship", "Created a portfolio website using HTML and CSS.", "Cloned a website using HTML, CSS, and JavaScript."]
+        title: "Full Stack Developer Intern",
+        timeline: "June' 2024 - Present",
+        organisation: "SnackBAE",
+        summary: ["SnackBAE is an innovative company enhancing customer relations for eateries ", "Developing Full Stack application using MERN"]
     }
 ];
 
