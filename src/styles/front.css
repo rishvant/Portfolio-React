@@ -206,11 +206,14 @@
     .front-content-btn{
         width: 75%;
         height: 3vh;
-        font-size: 10px;
+        font-size: 12px;
+    }
+    .social-line-cont{
+        height: 25%;
     }
     .social-line{
         width: 10%;
-        height: 20%;
+        height: 45%;
     }
     .social-icons{
         width: 25px;

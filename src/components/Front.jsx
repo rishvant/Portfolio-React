@@ -42,14 +42,14 @@ const Front = () => {
                     target="_blank"
                     style={{ width: "30px" }}
                 >
-                    <FaSquareXTwitter className="twitter-social social-icons" />
+                    <img src="/twitter.svg" className="twitter-social social-icons" />
                 </Link>
                 <Link
                     to="https://www.instagram.com/rishvantsp/"
                     target="_blank"
                     style={{ width: "30px" }}
                 >
-                    <FaInstagram className="instagram-social social-icons" />
+                    <img src="/instagram.svg" className="instagram-social social-icons" />
                 </Link>
                 <Link
                     to="https://github.com/rishvant"
