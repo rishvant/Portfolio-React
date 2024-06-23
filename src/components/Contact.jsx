@@ -50,15 +50,15 @@ const Contact = () => {
                         <form ref={form} onSubmit={sendEmail} className="form">
                             <div className="form-group">
                                 <label htmlFor="email">Your Name</label>
-                                <input ref={refName} required="" name="user_name" id="email" type="text" />
+                                <input ref={refName} required name="user_name" id="email" type="text" />
                             </div>
                             <div className="form-group">
                                 <label htmlFor="email">Your Email</label>
-                                <input ref={refEmail} required="" name="user_email" id="email" type="email" />
+                                <input ref={refEmail} required name="user_email" id="email" type="email" />
                             </div>
                             <div className="form-group">
                                 <label htmlFor="textarea">Your Message</label>
-                                <textarea ref={refMessage} required="" cols="50" rows="10" id="textarea" name="message"></textarea>
+                                <textarea ref={refMessage} required cols="50" rows="10" id="textarea" name="message"></textarea>
                             </div>
                             <input type="submit" className="form-submit-btn" />
                         </form>
