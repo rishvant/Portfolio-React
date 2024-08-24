@@ -148,7 +148,7 @@
         width: 80%;
         padding: 5%;
         margin-left: 5%;
-        height: 100vh;
+        height: fit-content;
     }
     .contact-container{
         flex-direction: column;
