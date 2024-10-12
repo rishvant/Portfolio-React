@@ -1,5 +1,11 @@
 export const projects = [
     {
+        title: "Bargainwale",
+        image: "/Bargainwale.png",
+        github: "https://github.com/rishvant/Finance",
+        live: "https://bargainwale.com"
+    },
+    {
         title: "IIITU Website",
         image: "/iiitu.png",
         live: "https://iiitu.ac.in"
